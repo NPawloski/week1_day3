@@ -24,8 +24,8 @@ namespace week1_day3
                 //do something else
                 Console.WriteLine("Math works, good.");
             } */
-        
 
+            /*
             Console.WriteLine("What day is today? ");
             String userAnswer = Console.ReadLine();
 
@@ -41,8 +41,36 @@ namespace week1_day3
             {
                 Console.WriteLine("Bloop.");
             }
+            */
+            /*
+            Console.WriteLine("How old are you? ");
+            int userAge = int.Parse(Console.ReadLine());
 
-
-        } 
+            if (userAge >= 0 && userAge <= 1)
+            {
+                Console.WriteLine("You're just a baby!");
+            }
+            else if (userAge > 1 && userAge < 4)
+            {
+                Console.WriteLine("Yat toddlers!");
+            }
+            else if (userAge >= 4 && userAge < 13)
+            {
+                Console.WriteLine("Enjoy your chilehood.");
+            }
+            else if (userAge >= 13 && userAge < 65)
+            {
+                Console.WriteLine("Life is awkward");
+            }
+            else if (userAge >= 65 && userAge < 100)
+            {
+                Console.WriteLine("Enjoy your retirement.");
+            }
+            else
+            {
+                Console.WriteLine("That's not really your age.");
+            }
+            */
+        }
     }
 }
