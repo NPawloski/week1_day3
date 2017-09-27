@@ -72,6 +72,7 @@ namespace week1_day3
             }
             */
 
+            /*
             Console.WriteLine("How many points did you earn?");
             int pointsEarned = int.Parse(Console.ReadLine());
 
@@ -106,7 +107,32 @@ namespace week1_day3
                     Console.WriteLine("Invalid score entered.");
                     break;
             }
+            */
 
+            int numDiners = 4;
+            Double amountPaid = 13;
+            Double totalAmount = numDiners * amountPaid;
+
+            //Console.WriteLine(totalAmount);
+
+            Console.WriteLine("How many people went to dinner?");
+            numDiners = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("How much did each person pay?");
+            amountPaid = Double.Parse(Console.ReadLine());
+            totalAmount = amountPaid * numDiners;
+            double finalBill;
+            if (totalAmount >= 50)
+            {
+                finalBill = totalAmount * 0.9;
+            }
+            else
+            {
+                finalBill = totalAmount * 0.95; 
+            }
+
+            // Console.WriteLine("The total amount spent was $" + totalBill);
+            Console.WriteLine("Your discounted bill is $" + finalBill);
 
 
         }
